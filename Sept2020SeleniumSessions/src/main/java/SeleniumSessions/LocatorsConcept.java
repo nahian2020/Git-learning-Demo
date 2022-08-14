@@ -17,6 +17,7 @@ public class LocatorsConcept {
 
 		driver.get("http://app.hubspot.com/");
 		Thread.sleep(6000);
+		System.out.println("nahian Test");
 		
 		//create the webelement + action (click, sendkeys, get tetx)
 		
