@@ -26,6 +26,7 @@ public class AmazonTest {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get("https://www.amazon.in/");
+		System.out.println("Nahian");
 	}
 
 	@Test(priority = 1)
